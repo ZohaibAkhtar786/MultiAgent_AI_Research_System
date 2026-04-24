@@ -72,23 +72,4 @@ streamlit run app.py
 | BeautifulSoup | Web scraping |
 | Streamlit | Frontend UI |
 
-## ☁️ Deployment on Streamlit Cloud (Free)
 
-1. Push this repo to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub repo
-4. Under **Advanced settings → Secrets**, add:
-   ```
-   OPENAI_API_KEY = "your_key_here"
-   TAVILY_API_KEY = "your_key_here"
-   ```
-5. Click **Deploy** — done!
-
-## ⚠️ Important
-
-- **Never commit your `.env` file** — it's listed in `.gitignore`
-- Always use `.env.example` to share the required key names safely
-
-## 📄 License
-
-MIT License
